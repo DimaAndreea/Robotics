@@ -39,7 +39,7 @@
   - 4x LED-uri (pentru a simula procentul de încărcare)
   - 1x LED RGB (pentru starea de liber sau ocupat)
   - 2x Butoane (pentru start încărcare și stop încărcare)
-  - 9x Rezistoare (7x 330ohm, 2x 1K)
+  - 9x Rezistoare (7x 220ohm, 2x 1K)
   - Breadboard
   - Linii de legătură
 </details>
