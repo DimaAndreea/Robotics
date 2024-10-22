@@ -2,33 +2,22 @@
 
 <details>
   <summary><b>Cerinte</b></summary>
+
+  ## Descrierea cerintelor:
+   - Aceasta tema simuleaza o statie de incarcare pentru un vehicul electric. Circuitul implementat foloseste mai multe LED-uri si butoane.
+   - Circuitul contine un LED RGB ce reprezinta disponibilitatea statiei (verde - disponibil; rosu - incarcarea e activa)
+   - De asemenea nivelul de incarcare al bateriei este reprezentat de 4 LED-uri:
+     - primul LED -> 25%
+     - al doilea LED -> 50%
+     - al treilea LED -> 75%
+     - al patrulea LED -> 100%
   
-  ## 1. Detalii Tehnice:
-  Led-ul RGB reprezintă disponibilitatea stației. Dacă stația este liberă led-ul va fi verde, iar dacă stația este ocupată se va face roșu.
-
-  Led-urile simple reprezintă gradul de încărcare al bateriei, pe care îl vom simula printr-un loader progresiv (L1 = 25%, L2 = 50%, L3 = 75%, L4 = 100%). Loader-ul se încarcă prin aprinderea succesivă a led-urilor, la un interval fix de 3s. LED-ul care semnifică procentul curent de încărcare va avea starea de clipire, LED-urile din urma lui fiind aprinse continuu, iar celelalte stinse.
-
-  Apăsarea scurtă a butonului de start va porni încărcarea. Apăsarea acestui buton în timpul încărcării nu va face nimic.
-
-  Apăsarea lungă a butonului de stop va opri încărcarea forțat și va reseta stația la starea liberă. Apăsarea acestui buton cât timp stația este liberă nu va face nimic.
-
-  ## 2. Flow:
-  Starea stației este ‘liberă’. Loader-ul este stins, iar led-ul pentru disponibilitate este verde.
-
-  Se apasă butonul pentru start.
-
-  Led-ul pentru disponibilitate se face roșu, iar încărcarea începe prin aprinderea primului LED L1.
-
-  Led-ul 1 clipește timp de 3s, celelalte fiind stinse.
-
-  După încărcarea primului procent de 25% led-ul rămâne aprins și se trece la următorul led, care va începe să clipească.
-
-  La finalizarea încărcării toate led-urile vor clipi simultan de 3 ori, iar apoi se vor stinge, pentru a semnaliza finalizarea procesului.
-
-  Led-ul pentru disponibilitate se face verde.
-
-  Dacă oricând de la pornirea încărcării până la finalizarea acesteia este apăsat lung (min 1s) butonul de stop, încărcarea se întrerupe prin animația de final (toate led-urile clipesc de 3 ori), iar led-ul pentru disponibilitate devine verde.
-
+   - Incarcarea incepe prin apasarea butonului de START (apasarea acestui buton in timpul incarcarii nu face nimic)
+   - Primul LED clipeste de 2 ori, iar a treia oara ramane aprins, cand in acelasi timp se trece la urmatorul LED care incepe si el sa clipeasca. Acest proces continua pana cand se ajunge la ultimul LED, care clipeste de 2 ori si se stinge
+   - Fiecare LED clipeste timp de 3 secunde
+   - Cand incarcarea a ajuns la final toate cele 4 led-uri clipesc de 3 ori simultan, iar LED-ul RGB isi schimba inapoi culoarea din rosu in verde
+   - Apasarea lunga a butonului de STOP (minim o secunda) opreste fortat procesul de incarcare prin animatia de la final (toate LED-urile clipesc de 3 ori simultan
+##
 </details>
 
 
@@ -42,6 +31,7 @@
   - 9x Rezistoare (7x 220ohm, 2x 1K)
   - Breadboard
   - Linii de legătură
+    ##
 </details>
 
 
@@ -50,7 +40,7 @@
 
   ## Schema electrica a circuitului implementat pe Tinkercad
   ![t725](https://github.com/user-attachments/assets/6c5c1a57-09fd-46ec-bc38-4dc7784aeb1c)
-  
+  ##
 </details>
 
 
@@ -64,7 +54,7 @@
 ![5](https://github.com/user-attachments/assets/68046be3-143e-4fea-ac2c-671b0a263384)
 ![4](https://github.com/user-attachments/assets/2e1c19be-fc1a-423d-b72f-714b4565a49d)
 ![3](https://github.com/user-attachments/assets/e2b85a01-59a3-4292-8514-a3a8adf5d7bf)
-
+##
 </details>
 
 
@@ -73,5 +63,5 @@
 
   ## Link catre videoul ce arata functionalitatea montajului fizic:
   https://www.youtube.com/watch?v=eAE200TeHGY
-  
+  ##
 </details>
