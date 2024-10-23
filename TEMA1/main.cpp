@@ -1,4 +1,4 @@
-#include<Arduino.h>
+#include <Arduino.h>
 
 //definim pinii (led-uri + butoane)
 const int led1 = 10;  //led pt 25%
@@ -52,7 +52,7 @@ void finalAnimation() {
   digitalWrite(led2, LOW);
   digitalWrite(led3, LOW);
   digitalWrite(led4, LOW);
-  delay(100);
+  delay(500);
 
   for (int i = 0; i < 3; i++) {
     digitalWrite(led1, HIGH);
@@ -147,13 +147,6 @@ void startLoadingProcess() {
     if (!isLoading) return;
   }
 
-  //oprim incarcarea
-  digitalWrite(led1, LOW);
-  digitalWrite(led2, LOW);
-  digitalWrite(led3, LOW);
-  digitalWrite(led4, LOW);
-  delay(500);
-  
   isLoading = false;
   finalAnimation();
 }
@@ -210,4 +203,3 @@ void loop() {
   //memoram/actualizam ultima stare citita pentru butonul de stop
   lastStopState = readingStop;
 }
-
