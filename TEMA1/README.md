@@ -1,9 +1,9 @@
 # TEMA 1
 
 <details>
-  <summary><b>Cerinte</b></summary>
+  <summary> <b> Despre </b> </summary>
 
-  ## Descrierea cerintelor:
+  ## Descrierea temei:
    - Aceasta tema simuleaza o statie de incarcare pentru un vehicul electric. Circuitul implementat foloseste mai multe LED-uri si butoane.
    - Circuitul contine un LED RGB ce reprezinta disponibilitatea statiei (verde - disponibil; rosu - incarcarea e activa)
    - De asemenea nivelul de incarcare al bateriei este reprezentat de 4 LED-uri:
@@ -15,9 +15,43 @@
    - Incarcarea incepe prin apasarea butonului de START (apasarea acestui buton in timpul incarcarii nu face nimic)
    - Primul LED clipeste de 2 ori, iar a treia oara ramane aprins, cand in acelasi timp se trece la urmatorul LED care incepe si el sa clipeasca. Acest proces continua pana cand se ajunge la ultimul LED, care clipeste de 2 ori si se stinge
    - Fiecare LED clipeste timp de 3 secunde
-   - Cand incarcarea a ajuns la final toate cele 4 led-uri clipesc de 3 ori simultan, iar LED-ul RGB isi schimba inapoi culoarea din rosu in verde
-   - Apasarea lunga a butonului de STOP (minim o secunda) opreste fortat procesul de incarcare prin animatia de la final (toate LED-urile clipesc de 3 ori simultan
+   - Cand incarcarea a ajuns la final toate cele 4 LED-uri clipesc de 3 ori simultan, iar LED-ul RGB isi schimba inapoi culoarea din rosu in verde
+   - Apasarea lunga a butonului de STOP (minim o secunda) opreste fortat procesul de incarcare prin animatia de la final (toate LED-urile clipesc de 3 ori simultan)
 ##
+</details>
+
+
+
+<details>
+  <summary><b>Cerinte</b></summary>
+
+ ## 1. Detalii tehnice:
+  -  Led-ul RGB reprezinta disponibilitatea statiei. Daca statia este libera led-ul va fi verde, iar daca statia este ocupata se va face rosu.
+    
+  -  Led-urile simple reprezinta gradul de incarcare al bateriei, pe care il vom simula printr-un loader progresiv (L1 = 25%, L2 = 50%, L3 = 75%, L4 = 100%). Loader-ul se incarca prin aprinderea succesiva a led-urilor, la un interval fix de 3s. LED-ul care semnifica procentul curent de incarcare va avea starea de clipire, LED-urile din urma lui fiind aprinse continuu, iar celelalte stinse.
+    
+  -  Apasarea scurta a butonului de start va porni incarcarea. Apasarea acestui buton in timpul incarcarii nu va face nimic.
+    
+  -  Apasarea lunga a butonului de stop va opri incarcarea fortat si va reseta statia la starea libera. Apasarea acestui buton cat timp statia este libera nu va face nimic.
+
+## 2. Flow:
+- Starea statiei este ‘libera’. Loader-ul este stins, iar led-ul pentru disponibilitate este verde.
+
+- Se apasa butonul pentru start.
+
+- Led-ul pentru disponibilitate se face rosu, iar incarcarea incepe prin aprinderea primului LED L1.
+
+- Led-ul 1 clipeste timp de 3s, celelalte fiind stinse.
+
+- Dupa incarcarea primului procent de 25% led-ul ramane aprins si se trece la urmatorul led, care va incepe sa clipeasca.
+
+- La finalizarea incarcarii toate led-urile vor clipi simultan de 3 ori, iar apoi se vor stinge, pentru a semnaliza finalizarea procesului.
+
+- Led-ul pentru disponibilitate se face verde.
+
+- Daca oricand de la pornirea incarcarii pana la finalizarea acesteia este apasat lung (min 1s) butonul de stop, incarcarea se intrerupe prin animatia de final (toate led-urile clipesc de 3 ori), iar led-ul pentru disponibilitate devine verde.
+  
+
 </details>
 
 
