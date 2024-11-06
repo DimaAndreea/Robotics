@@ -1,4 +1,5 @@
 #include <Arduino.h>
+
 // definim pinii pentru ledurile RGB si butoane
 const int ledRGB_R = 6;
 const int ledRGB_G = 5;
@@ -170,6 +171,7 @@ void loop() {
     }
 
     difficultyBtnLastState = difficultyBtnState;
+
     // verificam butonul de start/stop pentru debounce
     bool startBtnState = digitalRead(startBtn);
     if (startBtnState == LOW && startBtnLastState == HIGH && currentMillis - lastStartStopPressTime > debounceDelay) {
@@ -182,7 +184,7 @@ void loop() {
     }
 
     startBtnLastState = startBtnState;
-    // logica jocului cand este pornit
+
     if (gameStarted) {
         // verificam daca timpul pentru cuvantul curent a expirat si schimbam cuvantul
         if (millis() - wordStart >= timePerWord) {
