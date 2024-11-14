@@ -1,4 +1,4 @@
-# TEMA 1
+# TEMA 1: EV Charger
 
 <details>
   <summary> <b> Despre </b> </summary>
