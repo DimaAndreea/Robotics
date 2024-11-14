@@ -1,4 +1,4 @@
-# TEMA 2
+# TEMA 2: TypeRacer Game
 
 <details>
   <summary> <b> Despre </b> </summary>
