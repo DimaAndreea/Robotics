@@ -39,7 +39,7 @@
   <summary> <b> Schema electrica </b> </summary>
 
   ## Schema electrica a circuitului implementat pe Tinkercad
-  ![t725](https://github.com/user-attachments/assets/6c5c1a57-09fd-46ec-bc38-4dc7784aeb1c)
+  ![Mighty Kup-Curcan](https://github.com/user-attachments/assets/4649d0a3-51a5-43db-80a4-421e06e5231b)
   ##
 </details>
 
