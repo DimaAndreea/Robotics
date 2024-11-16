@@ -1,5 +1,7 @@
 # TEMA 3: Quick Time
 
+### Coechipier: [@Bogdan-Lungu](https://github.com/Bogdan-Lungu/Robotica)
+
 <details>
   <summary> <b> Despre </b> </summary>
 
@@ -44,6 +46,7 @@
   - 19x Rezistoare (12x 220ohm, 7x 1K)
   - 1x Servomotor
   - 1x LCD
+  - 1x Buzzer
   - Linii de legătură
     ##
 </details>
