@@ -34,9 +34,7 @@
   <summary> <b> Schema electrica </b> </summary>
   
    ## Schema electrica a circuitului implementat pe Tinkercad
-
-  ![schema_electrica](https://github.com/user-attachments/assets/0e185056-20b3-499c-b11d-64d9c823ab85)
-
+   ![Smooth Jaiks](https://github.com/user-attachments/assets/f02d8332-a365-4095-9652-cad650f379d3)
   ##
 
 </details>
