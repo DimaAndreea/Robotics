@@ -38,16 +38,16 @@
   <summary><b>Componente</b></summary>
   
   ## Componentele folosite:
-  - 2x Arduino Uno
+  - 2x Arduino Uno (ATmega328P microcontroller)
   - 2x Breadbord
   - 6x LED-uri (cate 3 pentru fiecare jucator)
   - 2x LED RGB (1 pentru fiecare jucator)
   - 6x Butoane (3 pentru fiecare jucator)
-  - 19x Rezistoare (12x 220ohm, 7x 1K)
+  - 22x Rezistoare (13x 220ohm, 8x 1K, 1x 100ohm)
   - 1x Servomotor
   - 1x LCD
   - 1x Buzzer
-  - Linii de legătură
+  - Linii de legatura
     ##
 </details>
 
@@ -56,7 +56,8 @@
   <summary> <b> Schema electrica </b> </summary>
 
   ## Schema electrica a circuitului implementat pe Tinkercad
-  TBD
+  ![tema3 - final (1)](https://github.com/user-attachments/assets/a0ed21f9-6a5f-423d-b3f3-7bf24b97e93f)
+
   ##
 </details>
 
