@@ -13,13 +13,7 @@
 
   ## 2. Desfasurarea jocului:
   - Jocul incepe cu un mesaj de bun venit afisat pe LCD.
-  - Pentru a porni, jucatorii au la dispozitie mai multe optiuni de start:
-    
-      a) fie se apasa oricare dintre butoane,
-    
-      b) fie se foloseste un buton anume desemnat
-    
-      c) fie un buton suplimentar dedicat pentru start.
+  - Este implementat un buton dedicat pentru pornirea jocului.
     
   - La fiecare runda, fiecare jucator este activ pe rand, iar LED-ul RGB al acestuia se aprinde intr-o culoare care corespunde unuia dintre butoanele sale.
   - Jucatorul trebuie sa apese rapid butonul corect pentru a primi puncte. Cu cat reactioneaza mai repede, cu atat scorul este mai mare.
@@ -66,7 +60,10 @@
   <summary> <b> Poze ale setup-ului fizic </b> </summary>
   
   ## Poze cu montajul implementat fizic:
-  TBD
+  ![IMG_6150](https://github.com/user-attachments/assets/ade3c7c3-a6c9-42a0-a94f-a53e90d141cb)
+![IMG_6148](https://github.com/user-attachments/assets/d99b4c33-b8cc-4933-9b4c-89d433e756ba)
+![IMG_6151](https://github.com/user-attachments/assets/2be2de60-1ab2-4fce-a99d-a17e64a2832a)
+
   ##
 </details>
 
@@ -75,6 +72,6 @@
   <summary> <b> Video cu montajul fizic </b> </summary>
 
   ## Link catre videoul ce arata functionalitatea montajului fizic:
-  TBD
+  https://youtu.be/nyq8nsM4g2E
   ##
 </details>
