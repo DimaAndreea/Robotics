@@ -21,8 +21,8 @@
 
   ## 3. Timpul si finalizarea jocului
   - Pe parcursul jocului, servomotorul se roteste, indicand progresul.
-  - O rotatie completa a servomotorului semnaleaza sfarsitul jocului, iar LCD-ul afiseaza numele castigatorului si scorul final.
-  - Dupa cateva secunde, ecranul revine la mesajul de start.
+  - O rotatie de 180 de grade a servomotorului semnaleaza sfarsitul jocului, iar LCD-ul afiseaza numele castigatorului si scorul final.
+  - Ulterior, ecranul revine la mesajul de start.
 
 ##
 </details>
