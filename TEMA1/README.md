@@ -1,28 +1,20 @@
 # TEMA 1: EV Charger
+## Descrierea temei:
+   - Această temă simulează o stație de încărcare pentru un vehicul electric. Circuitul implementat folosește mai multe LED-uri și butoane.  
+   - Circuitul conține un LED RGB ce reprezintă disponibilitatea stației (verde - disponibil; roșu - încărcarea e activă).  
+   - De asemenea, nivelul de încărcare al bateriei este reprezentat de 4 LED-uri:  
+     - primul LED → 25%  
+     - al doilea LED → 50%  
+     - al treilea LED → 75%  
+     - al patrulea LED → 100%  
+   
+   - Încărcarea începe prin apăsarea butonului de **START** (apăsarea acestui buton în timpul încărcării nu face nimic).  
+   - Primul LED clipește de 2 ori, iar a treia oară rămâne aprins, când în același timp se trece la următorul LED care începe și el să clipească. Acest proces continuă până când se ajunge la ultimul LED, care clipește de 2 ori și se stinge.  
+   - Fiecare LED clipește timp de 3 secunde.  
+   - Când încărcarea a ajuns la final, toate cele 4 LED-uri clipeșc de 3 ori simultan, iar LED-ul RGB își schimbă înapoi culoarea din roșu în verde.  
+   - Apăsarea lungă a butonului de **STOP** (minim o secundă) oprește forțat procesul de încărcare prin animația de la final (toate LED-urile clipeșc de 3 ori simultan).  
 
-<details>
-  <summary> <b> Despre </b> </summary>
-
-  ## Descrierea temei:
-   - Aceasta tema simuleaza o statie de incarcare pentru un vehicul electric. Circuitul implementat foloseste mai multe LED-uri si butoane.
-   - Circuitul contine un LED RGB ce reprezinta disponibilitatea statiei (verde - disponibil; rosu - incarcarea e activa)
-   - De asemenea nivelul de incarcare al bateriei este reprezentat de 4 LED-uri:
-     - primul LED -> 25%
-     - al doilea LED -> 50%
-     - al treilea LED -> 75%
-     - al patrulea LED -> 100%
-  
-   - Incarcarea incepe prin apasarea butonului de START (apasarea acestui buton in timpul incarcarii nu face nimic)
-   - Primul LED clipeste de 2 ori, iar a treia oara ramane aprins, cand in acelasi timp se trece la urmatorul LED care incepe si el sa clipeasca. Acest proces continua pana cand se ajunge la ultimul LED, care clipeste de 2 ori si se stinge
-   - Fiecare LED clipeste timp de 3 secunde
-   - Cand incarcarea a ajuns la final toate cele 4 LED-uri clipesc de 3 ori simultan, iar LED-ul RGB isi schimba inapoi culoarea din rosu in verde
-   - Apasarea lunga a butonului de STOP (minim o secunda) opreste fortat procesul de incarcare prin animatia de la final (toate LED-urile clipesc de 3 ori simultan)
-##
-</details>
-
-
-<details> 
-  <summary><b>Componente</b></summary>
+---
   
   ## Componentele folosite:
   - 4x LED-uri (pentru a simula procentul de încărcare)
@@ -31,12 +23,10 @@
   - 9x Rezistoare (7x 220ohm, 2x 1K)
   - Breadboard
   - Linii de legătură
-    ##
-</details>
-
+---
 
 <details>
-  <summary> <b> Schema electrica </b> </summary>
+  <summary> <b> Schema electrică </b> </summary>
 
   ## Schema electrica a circuitului implementat pe Tinkercad
   ![Mighty Kup-Curcan](https://github.com/user-attachments/assets/4649d0a3-51a5-43db-80a4-421e06e5231b)
@@ -61,7 +51,7 @@
 <details>
   <summary> <b> Video cu montajul fizic </b> </summary>
 
-  ## Link catre videoul ce arata functionalitatea montajului fizic:
+  ## Link catre videoul ce arată funcționalitatea montajului fizic:
   https://www.youtube.com/watch?v=eAE200TeHGY
   ##
 </details>
