@@ -1,6 +1,6 @@
 ## Robotica
 
-- Acest repository contine toate temele dezvoltate pentru cursul de Introducere in Robotica.
+- Acest repository conține toate temele dezvoltate pentru cursul de Introducere în Robotică.
 
 ## Cuprins:
 1. [Tema 1: EV Charger](TEMA1/)
