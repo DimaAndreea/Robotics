@@ -51,7 +51,7 @@
 <details>
   <summary> <b> Video cu montajul fizic </b> </summary>
 
-  ## Link catre videoul ce arată funcționalitatea montajului fizic:
+  ## Link către videoul ce arată funcționalitatea montajului fizic:
   https://www.youtube.com/watch?v=eAE200TeHGY
   ##
 </details>
