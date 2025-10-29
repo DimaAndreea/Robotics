@@ -1,37 +1,29 @@
 # TEMA 2: TypeRacer Game
 
-<details>
-  <summary> <b> Despre </b> </summary>
+## Descrierea temei:
+- Această temă simulează un joc inspirat de TypeRacer, cu un LED RGB ca indicator de stare și două butoane: **Start/Stop** și **Dificultate**.  
+- LED-ul RGB indică starea jocului: în repaus este alb, iar în numărătoarea inversă de la start clipește timp de 3 secunde.  
+- În timpul jocului devine verde pentru tastare corectă și roșu pentru greșeli.  
+- Butonul **Start/Stop** inițiază sau oprește runda.  
+- Butonul de **Dificultate** schimbă viteza cuvintelor între *Easy*, *Medium* și *Hard*, afișând mesajul corespunzător în terminal.  
+- Runda durează 30 de secunde, timp în care jucătorul trebuie să tasteze corect cuvintele afișate.  
+- La final, scorul cu numărul de cuvinte scrise corect este afișat în terminal.  
 
-  ## Descrierea temei:
-  - Aceasta tema simuleaza un joc inspirat de TypeRacer, cu un LED RGB ca indicator de stare si doua butoane: Start/Stop si Dificultate.
-  - LED-ul RGB indica starea jocului: in repaus este alb, in numaratoarea inversa de la start clipeste timp de 3 secunde
-  - In timpul jocului devine verde pentru tastare corecta si rosu pentru greseli
-  - Butonul Start/Stop initiaza sau opreste runda
-  - Butonul de dificultate schimba viteza cuvintelor intre Easy, Medium si Hard, afisand mesajul corespunzator in terminal.
-  - Runda dureaza 30 de secunde, timp in care jucatorul trebuie sa tasteze corect cuvintele afisate.
-  - La final, scorul cu numarul de cuvinte scrise corect este afisat in terminal
- 
-##
-</details>
+---
 
-<details>
-  <summary> <b> Componente </b> </summary>
+## Lista componentelor folosite:
+- 1x Arduino UNO (ATmega328P microcontroller)  
+- 1x LED RGB  
+- 2x Butoane  
+- 5x Rezistoare (3x 220 Ω, 2x 1000 Ω)  
+- Breadboard  
+- Fire de legătură  
+
+---
   
-  ## Lista componentelor folosite:
-    
-  * 1x Arduino UNO (ATmega328P microcontroller)
-  * 1x LED RGB
-  * 2x Butoane 
-  * 5x Rezistoare (3x 220 ohm, 2x 1000 ohm)
-  * Breadbord
-  * Fire de legatura
-  ##
-  
-</details>
 
 <details>
-  <summary> <b> Schema electrica </b> </summary>
+  <summary> <b> Schema electrică </b> </summary>
   
    ## Schema electrica a circuitului implementat pe Tinkercad
    ![Smooth Jaiks](https://github.com/user-attachments/assets/f02d8332-a365-4095-9652-cad650f379d3)
@@ -59,7 +51,7 @@
 <details>
   <summary> <b> Video cu montajul fizic </b> </summary>
 
-  ## Link catre videoul ce arata functionalitatea montajului fizic:
+  ## Link către videoul ce arată funcționalitatea montajului fizic:
   [https://www.youtube.com/watch?v=eAE200TeHGY](https://youtu.be/5zqyRliXPS8)
   ##
 </details>
